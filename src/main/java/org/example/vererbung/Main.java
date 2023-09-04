@@ -1,5 +1,7 @@
 package org.example.vererbung;
 
+import org.example.task.Book;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,10 +11,14 @@ public class Main {
         v1.setModel("AB");
         v1.startEngine();
 
+        System.out.println(Car.DRIVERSLICENCE);
 
 //        c1.setModel("B");
 //        c1.setBrand("B");
         c1.startEngine();
+
+
+
 
 
         System.out.println(v1);

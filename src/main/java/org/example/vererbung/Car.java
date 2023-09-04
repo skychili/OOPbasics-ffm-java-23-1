@@ -2,6 +2,8 @@ package org.example.vererbung;
 
 public class Car extends Vehicle {
 
+    public static final String DRIVERSLICENCE = "B";
+
     protected int doorCount;
 
     public Car() {
