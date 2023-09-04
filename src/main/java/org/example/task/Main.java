@@ -19,5 +19,24 @@ public class Main {
 
 
         System.out.println(l1);
+
+
+        System.out.println("-----------");
+
+
+        Book2 book2 = new Book2("book2", "me", "123");
+        System.out.println(book2);
+
+        System.out.println("Title: " + book2.title());
+        System.out.println("Author: " + book2.author());
+
+
+        Book2 book3 = new Book2("book2", "me");
+
+        Book2 book3copy = new Book2(book3.title(), book3.author(), "678155");
+
+        System.out.println(book3copy);
+
+        System.out.println(book2.equals(book3));
     }
 }
